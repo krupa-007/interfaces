@@ -1,0 +1,87 @@
+body {
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.phone-frame {
+  background-color: #fff;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  max-width: 375px;
+  margin: auto;
+  position: relative;
+}
+
+.iphone-frame {
+  background-color: #f5f5f5;
+  background-image: url("iphone-bg.png"); /* Adjust the path accordingly */
+  background-size: cover;
+  background-position: center;
+  width: 430px; /* Fixed width */
+  height: 550px; /* Fixed height */
+}
+
+.chat-app {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.chat-window {
+  width: 300px; /* Fixed width */
+  height: 400px; /* Fixed height */
+  overflow-y: auto;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.message {
+  display: flex;
+  align-items: center;
+  margin: 8px;
+}
+
+.customer {
+  justify-content: flex-start;
+}
+
+.bot {
+  justify-content: flex-end;
+}
+
+.message img {
+  width: 30px;
+  height: 30px;
+  margin-right: 8px;
+}
+
+.text-box {
+  display: flex;
+  margin-top: 10px;
+}
+
+.text-box input {
+  flex: 1;
+  padding: 8px;
+  margin-right: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.text-box button {
+  padding: 8px;
+  cursor: pointer;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+}
